@@ -72,7 +72,17 @@
 </div></section>
 
 <footer><div class="wrap">
-  <a href="https://github.com/Elospeed">github.com/Elospeed</a> · Kontakt: <a href="mailto:elospeed.dev@gmail.com">elospeed.dev@gmail.com</a>
+  <p>Fragen zu einem Tool? Am besten in den <a href="https://github.com/Elospeed/StemMaker/discussions">GitHub Discussions</a> des Projekts (StemMaker) stellen – die Antworten helfen dort allen.</p>
+  <p>Alles andere (Presse, Zusammenarbeit): <span id="mail">elospeed.dev (at) gmail (dot) com</span> · <a href="https://github.com/Elospeed">github.com/Elospeed</a></p>
 </div></footer>
+<script>
+  // Adresse wird erst im Browser zusammengesetzt (Schutz vor Spam-Bots)
+  (function () {
+    var u = 'elospeed.dev', d = 'gmail' + '.' + 'com', a = u + '\u0040' + d;
+    var el = document.getElementById('mail');
+    var l = document.createElement('a'); l.href = 'mai' + 'lto:' + a; l.textContent = a;
+    el.textContent = ''; el.appendChild(l);
+  })();
+</script>
 </body>
 </html>
