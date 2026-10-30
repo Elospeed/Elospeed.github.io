@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Elospeed – kostenlose Open-Source-Tools für Windows</title>
-<meta name="description" content="Elospeed baut kostenlose Open-Source-Tools für Windows: StemMaker macht aus MP3s Traktor-Stem-Dateien, das Network Ping Tool pingt Geräte in Industrienetzwerken, LedPreResistor berechnet LED-Vorwiderstände.">
+<meta name="description" content="Elospeed baut kostenlose Open-Source-Tools für Windows: StemMaker macht aus MP3s Traktor-Stem-Dateien, das Network Ping Tool pingt Geräte in Industrienetzwerken, der StemTagger bearbeitet Tags und Cover von Stem-Dateien und MP3s, LedPreResistor berechnet LED-Vorwiderstände.">
 <meta name="author" content="Elospeed">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://elospeed.github.io/de/">
@@ -16,11 +16,20 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Elospeed">
 <meta property="og:title" content="Elospeed – kostenlose Open-Source-Tools für Windows">
-<meta property="og:description" content="Elospeed baut kostenlose Open-Source-Tools für Windows: StemMaker macht aus MP3s Traktor-Stem-Dateien, das Network Ping Tool pingt Geräte in Industrienetzwerken, LedPreResistor berechnet LED-Vorwiderstände.">
+<meta property="og:description" content="Elospeed baut kostenlose Open-Source-Tools für Windows: StemMaker macht aus MP3s Traktor-Stem-Dateien, das Network Ping Tool pingt Geräte in Industrienetzwerken, der StemTagger bearbeitet Tags und Cover von Stem-Dateien und MP3s, LedPreResistor berechnet LED-Vorwiderstände.">
 <meta property="og:url" content="https://elospeed.github.io/de/">
 <meta property="og:image" content="https://elospeed.github.io/img/og-image.png">
 <meta property="og:locale" content="de_DE">
 <link rel="stylesheet" href="../style.css">
+<script>
+  // Wer oben ausdrücklich Englisch gewählt hat, kommt auf die englische Seite.
+  // Ohne eigene Wahl bleibt die deutsche Seite (z. B. bei einem Link aus einem deutschen Forum).
+  (function () {
+    var wahl = null;
+    try { wahl = localStorage.getItem('elospeed-lang'); } catch (e) {}
+    if (wahl === 'en') location.replace('../' + location.hash);
+  })();
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -34,7 +43,7 @@
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="https://elospeed.github.io/de/">Elospeed</a>
-  <a class="lang" href="../" hreflang="en" lang="en">English</a>
+  <a class="lang" href="../" hreflang="en" lang="en" onclick="try{localStorage.setItem('elospeed-lang','en')}catch(e){}">English</a>
 </div></header>
 
 <div class="wrap hero">
@@ -54,6 +63,15 @@
       <p>Macht aus deinen MP3-, WAV- und FLAC-Dateien Traktor-Stem-Dateien (.stem.mp4) mit Drums, Bass, Melodie und Gesang. Ohne Python, ohne Einrichtung. Seit Version 2.0 ist die Turbo-Engine auf der CPU 6- bis 10-mal schneller und nutzt die Grafikkarte, wenn es hilft. Mit StemPlayer zum Probehören der Stems. Installer oder portable ZIP.</p>
       <div class="tags">Traktor Pro 4 · Mixxx · Windows</div>
       <a class="btn" href="https://elospeed.github.io/StemMaker/de/">Zu StemMaker</a>
+    </div>
+  </div>
+  <div class="project">
+    <a href="https://elospeed.github.io/StemTagger/de/"><img src="../img/stemtagger-de.png" alt="StemTagger" loading="lazy"></a>
+    <div>
+      <h3>StemTagger</h3>
+      <p>Setzt Titel, Interpret, Album, Genre und Cover in Traktor-Stem-Dateien (.stem.mp4) und MP3s, auch für einen ganzen Ordner auf einmal. Geändert werden nur die Tags: Die Stems, das Audio und Traktors Cue-Punkte, Loops und Beatgrid bleiben unangetastet. Eine Spalte zeigt, welche MP3s Traktor schon analysiert hat. Portables ZIP, in StemMaker auch als AddOn dabei.</p>
+      <div class="tags">.stem.mp4 · MP3 · Traktor Pro 4 · Mixxx</div>
+      <a class="btn" href="https://elospeed.github.io/StemTagger/de/">Zum StemTagger</a>
     </div>
   </div>
 </div></section>

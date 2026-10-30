@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://elospeed.github.io/sitemap.xml
 Sitemap: https://elospeed.github.io/StemMaker/sitemap.xml
+Sitemap: https://elospeed.github.io/StemTagger/sitemap.xml
