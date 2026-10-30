@@ -3,4 +3,5 @@
 Startseite von Elospeed (https://elospeed.github.io/). Sie gibt der Domain bei Google den Seitennamen „Elospeed“ und verlinkt die Projekte.
 
 - StemMaker: https://elospeed.github.io/StemMaker/ (Quelle: https://github.com/Elospeed/StemMaker, Ordner `site/`)
+- StemTagger: https://elospeed.github.io/StemTagger/ (Quelle: https://github.com/Elospeed/StemTagger, Ordner `site/`)
 - LedPreResistor: https://elospeed.github.io/LedPreResistor/ (Quelle: https://github.com/Elospeed/LedPreResistor, Ordner `site/`)

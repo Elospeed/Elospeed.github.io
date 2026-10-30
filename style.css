@@ -31,3 +31,4 @@ footer { border-top:1px solid var(--line); margin-top:32px; padding:24px 0 40px;
 @media (max-width:760px) { .project { grid-template-columns:1fr; } }
 .shots { display:grid; grid-template-columns:1.6fr 1fr; gap:10px; align-items:start; }
 .shots > * { min-width:0; }
+.project + .project { margin-top:16px; }
