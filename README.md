@@ -4,4 +4,5 @@ Startseite von Elospeed (https://elospeed.github.io/). Sie gibt der Domain bei G
 
 - StemMaker: https://elospeed.github.io/StemMaker/ (Quelle: https://github.com/Elospeed/StemMaker, Ordner `site/`)
 - StemTagger: https://elospeed.github.io/StemTagger/ (Quelle: https://github.com/Elospeed/StemTagger, Ordner `site/`)
+- StemPacker: https://elospeed.github.io/StemPacker/ (Quelle: https://github.com/Elospeed/StemPacker, Ordner `site/`)
 - LedPreResistor: https://elospeed.github.io/LedPreResistor/ (Quelle: https://github.com/Elospeed/LedPreResistor, Ordner `site/`)
