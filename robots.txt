@@ -5,3 +5,4 @@ Sitemap: https://elospeed.github.io/sitemap.xml
 Sitemap: https://elospeed.github.io/StemMaker/sitemap.xml
 Sitemap: https://elospeed.github.io/StemTagger/sitemap.xml
 Sitemap: https://elospeed.github.io/LedPreResistor/sitemap.xml
+Sitemap: https://elospeed.github.io/StemPacker/sitemap.xml
