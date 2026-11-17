@@ -1,0 +1,18 @@
+# Elospeed
+
+> Elospeed makes free, open-source desktop tools (MIT licence) for DJs, music producers and electronics hobbyists. No account, no ads, no paid version. Source code on GitHub: https://github.com/Elospeed
+
+## DJ and music
+
+- [StemMaker](https://elospeed.github.io/StemMaker/): Turns MP3, WAV, FLAC, AIFF, M4A, AAC, OGG and Opus files into Traktor stem files (.stem.mp4) with four stems (drums, bass, other/melody, vocals) in one step, for whole folders at once. Works with Traktor Pro 4 and Mixxx 2.6. Runs on Windows 10/11 (64-bit) and on Linux as an AppImage (beta, Wine built in). The Turbo engine (ONNX Runtime, htdemucs model) runs on the CPU; a graphics card (NVIDIA, AMD or Intel via DirectML) is optional and only used on Windows when it is faster. No Python, PyTorch or CUDA needed. Includes StemPlayer, StemTagger and StemPacker as add-ons and a command line version (StemCLI). German page: https://elospeed.github.io/StemMaker/de/
+- [StemTagger](https://elospeed.github.io/StemTagger/): Edits title, artist, album, genre and cover art of Traktor stem files (.stem.mp4) and MP3s, for a whole folder at once, without touching the audio, the stems or Traktor's cue points and beatgrid. Portable for Windows, also included in StemMaker.
+- [StemPacker](https://elospeed.github.io/StemPacker/): Packs finished tracks (a master plus up to four stems, e.g. from a DAW or another separation tool) into Traktor stem files (.stem.mp4), without AI and in batches, with your own stem names and colours, AAC or lossless ALAC. Portable for Windows, also included in StemMaker.
+
+## Electronics
+
+- [LedPreResistor](https://elospeed.github.io/LedPreResistor/): Calculates series resistors for LEDs (E12/E24/E96, colour bands, power), NE555 and transistor blink circuits and constant current sources, with step-by-step explanations. English and German, for Windows and natively for Linux.
+
+## More
+
+- [Overview of all tools](https://elospeed.github.io/) (German: https://elospeed.github.io/de/)
+- Questions and feedback: GitHub Discussions of each project, e.g. https://github.com/Elospeed/StemMaker/discussions
